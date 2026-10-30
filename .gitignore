@@ -1,0 +1,5 @@
+# Dataset (o notebook baixa sozinho)
+data/*.csv
+
+.ipynb_checkpoints/
+__pycache__/

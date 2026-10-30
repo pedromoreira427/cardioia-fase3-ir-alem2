@@ -1,0 +1,46 @@
+{
+  "regressao_logistica": {
+    "acuracia": 0.7833256985799358,
+    "recall_anormal": 0.7836294416243654,
+    "precisao_anormal": 0.9034381858083395,
+    "f1_anormal": 0.8392796466190962,
+    "tempo_treino_s": 0.3913606000132859,
+    "ms_por_1000": 0.9049931404565215,
+    "parametros": 188
+  },
+  "rede_lif": {
+    "acuracia": 0.9097572148419606,
+    "recall_anormal": 0.9282994923857868,
+    "precisao_anormal": 0.9457013574660633,
+    "f1_anormal": 0.9369196285622798,
+    "tempo_treino_s": 47.31932630005758,
+    "ms_por_1000": 103.66486485721565,
+    "parametros": 3138,
+    "melhor_epoca": 20,
+    "spikes_entrada_medio": 76.0201557489693,
+    "spikes_ocultos_medio": 1333.87353515625
+  },
+  "controle_lr_spikes": {
+    "acuracia": 0.8140174072377462,
+    "recall_anormal": 0.7950507614213198,
+    "precisao_anormal": 0.937874251497006,
+    "f1_anormal": 0.8605769230769231
+  },
+  "custo": {
+    "Regressão Logística": {
+      "operacoes_por_batimento": 562.0,
+      "spikes_entrada": null,
+      "spikes_ocultos": null
+    },
+    "LIF em CPU (denso)": {
+      "operacoes_por_batimento": 419904.0,
+      "spikes_entrada": 76.0201557489693,
+      "spikes_ocultos": 1333.87353515625
+    },
+    "LIF orientado a eventos": {
+      "operacoes_por_batimento": 19501.037038246533,
+      "spikes_entrada": 76.0201557489693,
+      "spikes_ocultos": 1333.87353515625
+    }
+  }
+}
