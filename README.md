@@ -13,7 +13,9 @@ Compara um classificador tradicional (**regressão logística**) com uma rede de
 
 ## 🎥 Vídeo de demonstração
 
-**Link (YouTube, não listado):** COLAR_LINK_VIDEO
+**Link (YouTube, não listado):** https://youtu.be/9ytPMF_4ls8
+
+Em 3min55: os dados, o neurônio LIF, a codificação em pulsos, o treino, os resultados no teste, o controle e a análise crítica de custo e limitações.
 
 ## 📄 Relatório
 
